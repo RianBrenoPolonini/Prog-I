@@ -1,2 +1,3 @@
 # Aprendendo Python
 
+Só emoção
