@@ -3,7 +3,6 @@ def check_palindrome(string):
     w = ""
     for i in string:
         w = i + w
-        print(w)
     if (string == w):
         print('É palíndrome')
         return True
@@ -22,4 +21,4 @@ def check_palindrome2(string):
     print('É palíndrome')
     return True
 
-check_palindrome(input('Digite a palavra que você quer testar: '))
+# check_palindrome(input('Digite a palavra que você quer testar: '))

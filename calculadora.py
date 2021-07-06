@@ -13,7 +13,7 @@ while 1==1:
         # Entrada de dados da calculadora
         primeiroNumero = float(input('Digite o primeiro numero para calcular: '))
         segundoNumero = float(input('Digite o segundo numero para calcular: '))
-        operacao = str(input('Digite agora a operação(+, -, *, /): '))
+        operacao = str(input('Digite agora a operação (+, -, *, /): '))
         os.system('cls')
 
         if (operacao == "+"):
