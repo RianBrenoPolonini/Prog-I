@@ -21,4 +21,4 @@ def check_palindrome2(string):
     print('É palíndrome')
     return True
 
-# check_palindrome(input('Digite a palavra que você quer testar: '))
+check_palindrome(input('Digite a palavra que você quer testar: '))

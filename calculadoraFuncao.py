@@ -1,22 +1,21 @@
 # Desafio calculadora :)
 # Biblioteca para poder limpar a tela
-
 import os
 os.system('cls') #Comando para limpar a tela
 
 def calculadora(n1, n2, sinal):
     if (sinal == "+"):
-        soma = n1 + n2
-        print('A soma de', n1, 'e', n2, "é", soma, "\n")
+        result = n1 + n2
+        print('A soma de {} e {} é \n'.format(n1, n2, sinal))
     elif (sinal == "-"):
-        subtracao = n1 - n2
-        print('A subtração de', n1, 'e', n2, "é", subtracao, "\n")
+        result = n1 - n2
+        print('A subtração de {} e {} é \n'.format(n1, n2, sinal))
     elif (sinal == "*"):
-        multiplicacao = n1 * n2
-        print('A multiplicação de', n1, 'e', n2, "é", multiplicacao, "\n")
+        result = n1 * n2
+        print('A multiplicação de {} e {} é \n'.format(n1, n2, sinal))
     elif (sinal == "/"):
-        divicao = n1 / n2
-        print('A divição de', n1, 'e', n2, "é", divicao, "\n")
+        result = n1 / n2
+        print('A soma de {} e {} é \n'.format(n1, n2, sinal))
 
 # Entrada de dados da calculadora
 n1 = float(input('Digite o primeiro numero para calcular: '))
