@@ -15,7 +15,7 @@ while 1==1:
         segundoNumero = float(input('Digite o segundo numero para calcular: '))
         operacao = str(input('Digite agora a operação (+, -, *, /): '))
         os.system('cls')
-
+        
         if (operacao == "+"):
             soma = primeiroNumero + segundoNumero
             print('A soma de', primeiroNumero, 'e', segundoNumero, "é", soma, "\n")

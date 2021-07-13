@@ -16,4 +16,3 @@ elif (imc >= 35 and imc < 40):
     print('Obesidade grau II')
 elif (imc >= 40):
     print('Obesidade grau III')
-

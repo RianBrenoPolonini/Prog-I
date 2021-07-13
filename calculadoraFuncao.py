@@ -6,16 +6,16 @@ os.system('cls') #Comando para limpar a tela
 def calculadora(n1, n2, sinal):
     if (sinal == "+"):
         result = n1 + n2
-        print('A soma de {} e {} é \n'.format(n1, n2, sinal))
+        print('A soma de {} e {} é {} \n'.format(n1, n2, result))
     elif (sinal == "-"):
         result = n1 - n2
-        print('A subtração de {} e {} é \n'.format(n1, n2, sinal))
+        print('A subtração de {} e {} é {} \n'.format(n1, n2, result))
     elif (sinal == "*"):
         result = n1 * n2
-        print('A multiplicação de {} e {} é \n'.format(n1, n2, sinal))
+        print('A multiplicação de {} e {} é {} \n'.format(n1, n2, result))
     elif (sinal == "/"):
         result = n1 / n2
-        print('A soma de {} e {} é \n'.format(n1, n2, sinal))
+        print('A soma de {} e {} é {} \n'.format(n1, n2, result))
 
 # Entrada de dados da calculadora
 n1 = float(input('Digite o primeiro numero para calcular: '))
