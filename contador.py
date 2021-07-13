@@ -1,25 +1,31 @@
-contador = produto = 1
-soma = maior = menor = 0
+soma = maior = menor = produto = int(input('Informe o 1° numero: '))
 
-while contador != 4:
-    print('Informe o', contador, '° numero')
-    n = int(input())
+contador = 1
+while contador < 3:
+    n = int(input('Informe o {}° numero: '.format(contador + 1)))
     soma = soma + n
     produto = produto * n
 
-    if contador == 1:
-        menor = n
-        maior = n
-        
     if maior < n:
         maior = n
     if menor > n:
         menor = n
-    contador = contador + 1
 
-media = soma / (contador - 1)
-print('A media é:', media)
-print('A soma é:', soma)
-print('O produto é:', produto)
-print('O menor é:', menor)
-print('O maior é:', maior)
+    contador += 1
+
+media = soma / contador
+
+print("""
+A media é: {}
+A soma é: {}
+O produto é: {}
+O menor é: {}
+O maior é: {}
+"""
+      .format(media, soma, produto, menor, maior))
+
+# print('A media é:', media)
+# print('A soma é:', soma)
+# print('O produto é:', produto)
+# print('O menor é:', menor)
+# print('O maior é:', maior)
