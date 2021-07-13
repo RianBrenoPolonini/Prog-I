@@ -2,7 +2,7 @@ soma = maior = menor = produto = int(input('Informe o 1° numero: '))
 
 contador = 1
 while contador < 3:
-    n = int(input('Informe o {}° numero: '.format(contador + 1)))
+    n = float(input(f'Informe o {contador + 1}° numero: '))
     soma = soma + n
     produto = produto * n
 
