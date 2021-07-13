@@ -15,14 +15,22 @@ while contador < 3:
 
 media = soma / contador
 
-print("""
-A media é: {}
-A soma é: {}
-O produto é: {}
-O menor é: {}
-O maior é: {}
-"""
-      .format(media, soma, produto, menor, maior))
+print(f"""
+A media é: {media}
+A soma é: {soma}
+O produto é: {produto}
+O menor é: {menor}
+O maior é: {maior}
+""")
+
+# print("""
+# A media é: {}
+# A soma é: {}
+# O produto é: {}
+# O menor é: {}
+# O maior é: {}
+# """
+#       .format(media, soma, produto, menor, maior))
 
 # print('A media é:', media)
 # print('A soma é:', soma)
