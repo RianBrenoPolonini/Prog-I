@@ -1,5 +1,3 @@
 # Entrada de dados.
-ola = 6
-mensagem = 'Informe um numero inteiro: ', ola
-n = (input(mensagem))
-print(len(n))
+n = list(map(int, input().split()))
+print(n)
