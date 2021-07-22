@@ -1,7 +1,6 @@
 # Desafio calculadora :)
-# Biblioteca para poder limpar a tela
 import os
-os.system('cls') #Comando para limpar a tela
+os.system('cls')
 
 def calculadora(n1, n2, sinal):
     if (sinal == "+"):

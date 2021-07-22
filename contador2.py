@@ -1,23 +1,15 @@
-numeros = []
-for i in range(50):
-    numeros.append(int(input('Digite o numero: ')))
-print(numeros)
+n = []
+soma, produto, ind = 0, 1, 50
 
-soma, produto = 0,1
-
-for i in range(len(numeros)):
-    soma += numeros[i]
-    produto *= numeros[i]
-
-numeros.sort()
-menor = numeros[0]
-maior = numeros[-1]
-media = soma / len(numeros)
+for i in range(ind):
+    n.append(int(input(f'Digite o {i + 1}° número: ')))
+    soma += n[i]
+    produto *= n[i]
 
 print(f"""
-A media é: {media}
+A media é: {soma / ind}
 A soma é: {soma}
 O produto é: {produto}
-O menor é: {menor}
-O maior é: {maior}
+O menor é: {min(n)}
+O maior é: {max(n)}
 """)
