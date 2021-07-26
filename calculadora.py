@@ -1,11 +1,12 @@
 # Desafio calculadora :)
 import os
+os.system('cls')
 
 while True:
-    opcao = int(input('Digite 1 para fazer uma conta ou 2 para sair: '))
+    opcao = input('Digite 1 para fazer uma conta ou 2 para sair: ')
     os.system('cls')
     
-    if opcao == 1:
+    if opcao == '1':
         n1 = float(input('Digite o primeiro numero para calcular: '))
         n2 = float(input('Digite o segundo numero para calcular: '))
         sinal = input('Digite agora a operação (+, -, *, /): ')
@@ -23,6 +24,8 @@ while True:
         elif (sinal == "/"):
             result = n1 / n2
             print(f'A divição de {n1} e {n2} é {result}\n')
-            
-    elif opcao == 2:
+        else:   
+            print(f'Operação "{sinal}" não identificada\n') 
+
+    elif opcao == '2':
         break 

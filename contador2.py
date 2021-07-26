@@ -1,5 +1,5 @@
 n = []
-soma, produto, ind = 0, 1, 50
+soma, produto, ind = 0, 1, 5
 
 for i in range(ind):
     n.append(int(input(f'Digite o {i + 1}° número: ')))

@@ -11,12 +11,12 @@ for i in range(60):
     else:
         nulos +=1
 # Como não tem como dividir por 0, então precisos tirar essa opçao
-if soma_positivo == 0 and positivos == 0:
+if positivos == 0:
     media_positivo = 0  
 else:
-    media_positivo  = soma_positivo/positivos
+    media_positivo = soma_positivo/positivos
 
-if soma_negativo == 0 and negativos == 0:
+if negativos == 0:
     media_negativo = 0  
 else:
     media_negativo = soma_negativo/negativos
