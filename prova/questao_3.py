@@ -4,7 +4,7 @@ parcelas = int(input('Digite o número de termos: '))
 x = int(input('Digite um número positivo: '))
 soma = 0
 
-def fatorial(i):
+for i in range(1, parcelas + 1):
     if i % 6 == 1 % 6:
         n = math.factorial(1)
     elif i % 6 == 2 % 6:
@@ -17,12 +17,9 @@ def fatorial(i):
         n = math.factorial(3)
     else:    
         n = math.factorial(2)
-    return n
 
-for i in range(1, parcelas + 1):
     if i % 2 == 0:
-        soma += x ** (i+1) / fatorial(i)
+        soma += x ** (i+1) / n
     else:
-        soma += -(x ** (i+1) / fatorial(i))
-
+        soma += -(x ** (i+1) / n)
 print(soma)
