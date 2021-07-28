@@ -13,3 +13,5 @@ for i in termos*(1, 2, 3, 4, 3, 2):
         soma += -(x ** (controle+1) / math.factorial(i))
     controle += 1
 print(soma)
+
+'Olá'
