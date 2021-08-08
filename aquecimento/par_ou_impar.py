@@ -4,7 +4,7 @@ while True:
     if partidas == 0:
         break
     
-    j1,  j2 = input(), input()
+    j1, j2 = input(), input()
     vencedor = []
 
     for i in range(partidas):

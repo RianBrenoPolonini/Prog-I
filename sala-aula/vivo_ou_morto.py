@@ -13,4 +13,3 @@ while True:
             if n[1] != n[i]:
                 del(fila[ind-2])
     print(fila)
-6

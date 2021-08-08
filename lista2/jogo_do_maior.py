@@ -1,5 +1,4 @@
 while True:
-
     rodadas = int(input())
     if rodadas == 0:
         break
