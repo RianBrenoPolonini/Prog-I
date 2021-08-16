@@ -2,7 +2,7 @@
 contador = 1
 while True:
     participantes = int(input())
-    # Verifica se tem 0 participantes, se for o caso para o lool
+    # Verifica se tem 0 participantes, se for o caso para o loop
     if participantes == 0:
         break
 
