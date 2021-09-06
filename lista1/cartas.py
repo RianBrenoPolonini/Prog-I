@@ -1,7 +1,4 @@
-linha = input()
-ordem = []
-for val in linha.split():
-    ordem.append(int(val))
+ordem = list(map(int, input().split()))
 
 if ordem == sorted(ordem):
     print('C')
