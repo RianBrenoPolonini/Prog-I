@@ -1,6 +1,5 @@
 max = int(input())
-linha = input()
-linha = linha.split()
+linha = input().split()
 
 if linha[1] == "+":
     soma = int(linha[0]) + int(linha[2])

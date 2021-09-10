@@ -1,7 +1,5 @@
-linha = input()
-linha = list(map(int, linha.split()))
+linha = list(map(int, input().split()))
 D = E = F = linha[0]
-operacoes = linha[1]
 
 def compra(user, valor):
     global D, E, F
@@ -42,15 +40,14 @@ def aluga(user, user2, valor):
         else:
             D -= valor
 
-for i in range(operacoes):
-    linha = input()
-    linha = linha.split()
+for i in range(linha[1]):
+    operacoes = input().split()
 
-    if linha[0] == "C":
-        compra(linha[1], int(linha[2]))
-    elif linha[0] == "V":
-        venda(linha[1], int(linha[2]))
+    if operacoes[0] == "C":
+        compra(operacoes[1], int(operacoes[2]))
+    elif operacoes[0] == "V":
+        venda(operacoes[1], int(operacoes[2]))
     else:
-        aluga(linha[1], linha[2], int(linha[3]))
+        aluga(operacoes[1], operacoes[2], int(operacoes[3]))
     
 print(D, E, F)

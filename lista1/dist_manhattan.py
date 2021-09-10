@@ -1,9 +1,3 @@
-linha = input()
-linha = linha.split()
+linha = list(map(int, input().split()))
 
-xm = int(linha[0])
-ym = int(linha[1])
-xr = int(linha[2])
-yr = int(linha[3])
-
-print(abs((xm - xr)) + abs((ym - yr)))
+print(abs((linha[0] - linha[2])) + abs((linha[1] - linha[3])))
